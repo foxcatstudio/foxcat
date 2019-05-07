@@ -1,0 +1,50 @@
+
+/*  СИНТАКСИС CSS
+селектор {
+	свойство: значение;
+	свойство: значение;
+	свойство: значение;
+	...
+	свойство: значение;
+}
+*/
+
+.test {
+	color: green;  
+	/*ЦВЕТ ТЕКСТА*/
+
+	border: 2px solid red;   
+	/*ЦВЕТНАЯ РАМКА*/
+
+	background: blue;  
+	/*ЦВЕТ ФОНА*/
+
+	font-family: sans-serif;
+	font-size: 100px;
+	width: 600px;
+	height: 100px;
+	
+}
+
+/*=================================*/
+h1 {
+
+	color: #01A9DB
+}
+
+.miu {
+
+	color: #9A2EFE;
+	background: blue;
+	margin-left: : 20%;
+	border: 3px solid #666;
+}
+
+.new span {
+	color: #FFFFFF;
+	background: red;
+}
+
+#block {
+	background: yellow;
+}

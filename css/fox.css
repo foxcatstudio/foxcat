@@ -1,0 +1,75 @@
+
+body {
+	font-size: 1.1em;
+	font-family: Arial;
+	background-color: #CEECF5;
+	padding: 0;
+	margin: 0 100px 80px 100px;
+}
+
+header img {
+	width: 150px;
+	height: 50px;
+}
+
+h1 {
+	color: #FF0080;
+}
+
+h2 {
+	background-color: #01DF3A;
+	color: white;
+}
+
+span {
+	font-weight: bold;
+	color: red;
+}
+
+form {
+	background-color: #b0d7b2;
+	padding: 15px;
+	width: 200px;
+}
+
+input, button {
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	border: 1px solid red;
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+.loremtext {
+	line-height: 5px;
+}
+
+.circle {
+	width: 150px;
+	height: 150px;
+	padding: 27px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	background-color: #81DAF5;
+	margin-bottom: 100px;
+	color: #B45F04;
+	box-shadow: 0 0 60px black;
+}
+
+.mar {
+	margin-left: 100px;
+	border: 1.5px dashed red;
+}
+
+.padd {
+	padding: 50px;
+	opacity: 0.3; /*прозрачность*/
+}
+
+ul li {
+	border: 1px solid black; 
+	font-size: 1.5em;
+}
+
+
