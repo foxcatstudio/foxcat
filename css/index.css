@@ -1,0 +1,35 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	opacity: 0.4;
+}
+
+img:hover {
+	opacity: 1; 
+}
+
+figure {
+	/*border: 1px solid red; */
+}
+.content {
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 150px;
+	text-align: center;
+}
+
+.fox {
+	float: left;
+}
+
+.cat {
+	float: right;
+}
+
+img {
+	border-radius: 50%;
+}
