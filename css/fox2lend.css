@@ -1,0 +1,169 @@
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu';
+	font-weight: 700;
+	margin: 0;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 19px;
+}
+
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/*HEADER==========================================*/
+
+.header {
+	padding-top: 62px;
+	padding-bottom: 141px;
+	color: #fff;
+	background: #4ec0fe;
+	background: -moz-linear-gradient(-45deg, #4ec0fe 0%, #3790d9 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, #4ec0fe), color-stop(100%, #3790d9));
+	background: -webkit-linear-gradient(-45deg, #4ec0fe 0%, #3790d9 100%);
+	background: -o-linear-gradient(-45deg, #4ec0fe 0%, #3790d9 100%);
+	background: -ms-linear-gradient(-45deg, #4ec0fe 0%, #3790d9 100%);
+	background: linear-gradient(135deg, #4ec0fe 0%, #3790d9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 97px;
+	width: 560px;
+}
+
+.title {
+	font-size: 37px;
+}
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	width: 416px;
+	font-family: 'Open+Sans';
+	font-size: 16px;
+	line-height: 27px;	/*межстрочное расстояние*/
+	margin: 44px 0; 
+}
+
+.btn {
+	width: 222px;
+	height: 55px;
+	display: block;
+	padding: 17px;
+	text-align: center;
+	background-color: #ffd429;
+	font-family: 'Montserrat';
+	font-weight: 900;
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #867017;
+	transition: all 0.5s ease; 	
+}
+
+.foto {
+	/*margin-top: 66px;*/
+}
+
+.foto img {
+	border-radius: 50%;
+}
+
+/*advantages==========================================*/
+
+.advantages {
+	padding: 99px 0 112px 0; 
+	text-align: center;
+}
+
+.advantag {
+	padding-top: 96px;
+	width: 280px;
+}
+
+.advantages1 {
+	background: url(../img/fox2lend/icon1.png) no-repeat top center;
+}
+.advantages2 {
+	background: url(../img/fox2lend/icon2.png) no-repeat top center;
+}
+.advantages3 {
+	background: url(../img/fox2lend/icon3.png) no-repeat top center;
+}
+
+.advantages .wrapper {
+	margin-top: 72px;
+}
+
+/*forms==========================================*/
+
+.forms {
+	background-color: #ecf3f8;
+	padding: 102px 0 106px 0; 
+	text-align: center;
+}
+
+form {
+	margin-top: 60px;
+}
+
+input  {
+	width: 343px;
+	height: 46px;
+	display: block;
+	padding-left: 26px;
+	margin: 0 auto; 
+	margin-bottom: 14px;
+	border: 1px solid #bbbbbb;
+	border-radius: 5px;
+	color: #85828c;
+	font-size: 15px;
+	font-family: 'Ubuntu'; 
+}
+
+.btn2 {
+	width: 343px;
+	margin: 0 auto;
+}
+
+/*footer==========================================*/
+
+footer {
+	padding: 40px 0;
+	background-color: #164d7a;
+	color: #fff;
+	text-align: center;
+	font-family: 'Open+Sans';
+	font-size: 14px; 
+}
