@@ -1,0 +1,302 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #201b2d;	
+	font-size: 15px;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900; /*жирность букв*/
+	padding: 0;
+}
+
+p {
+	line-height: 1.6em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/*HEADER==========================================*/
+
+.hidden {
+	visibility: hidden;
+	display: inline-block;
+}
+.hidden p {
+	margin: 0;
+	width: 100px;
+}
+.verybig {
+	visibility: visible;
+}
+
+.header {
+	padding-top: 50px;
+	padding-bottom: 130px;
+	color: #fff;
+    background: #473d5f;
+	background: -moz-linear-gradient(-45deg, #473d5f 0%, #2b2240 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, #473d5f), color-stop(100%, #2b2240));
+	background: -webkit-linear-gradient(-45deg, #473d5f 0%, #2b2240 100%);
+	background: -o-linear-gradient(-45deg, #473d5f 0%, #2b2240 100%);
+	background: -ms-linear-gradient(-45deg, #473d5f 0%, #2b2240 100%);
+	background: linear-gradient(135deg, #473d5f 0%, #2b2240 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473d5f', endColorstr='#2b2240', GradientType=1 );
+}
+
+.wrapper {
+	display: flex; /*выравнивание элементов в ряд (тренд вёрстки - flexbox)*/
+	justify-content: space-between; /*левый элемент к левому, правый к правому*/
+}
+
+.offer {
+	margin-top: 146px;
+	width: 486px;
+}
+
+.title {
+	font-size: 36px;
+}
+
+.title span {
+	color: #48ed8e;
+}
+
+.intro {
+	margin-bottom: 37px;
+	margin-top: 30px;
+	width: 376px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ed9619;
+	color: #fff;
+	border-radius: 100px;
+	display: block;
+	width: 207px;
+	padding: 20px 0px;
+	text-align: center;	
+	text-decoration: none; /*убрать подчёркивание у ссылки*/
+	cursor: pointer; /*лапка*/ 	
+}
+.btn:hover {
+	background-color: #a96d17;
+	transition: all 0.5s ease; 
+	/*анимировать: все свойства, за 0,5сек, в формате ease*/
+}
+
+.foto {
+	margin-top: 42px; 
+	/*width: 547px;
+	height: 464px;*/
+}
+
+/*SECTION1==========================================*/
+
+.learn {
+	padding-top: 105px;
+	padding-bottom: 120px;
+}
+
+.section-title {
+	font-size: 30px;
+}
+
+.skills {
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.skill {
+	width: 350px; 
+	padding-left: 100px;
+	background: url('../img/fox1lend/icon1.png') no-repeat left top;
+}
+
+.skill-title {
+	font-size: 18px;
+}
+
+.skill-text {
+	margin-top: 7px;
+}
+
+.skill2 {
+	width: 380px; 
+	background: url('../img/fox1lend/icon2.png') no-repeat left top;
+}
+.skill3 {
+	background: url('../img/fox1lend/icon3.png') no-repeat left top;
+}
+
+/*SECTION2==========================================*/
+
+.mail {
+	padding-top: 171px;
+	padding-bottom: 195px;
+	background-color: #efecf4;
+}
+
+.form {
+	margin-top: 40px;
+}
+
+.input {
+	width: 472px;
+	height: 54px;
+	border: 2px solid #bfb8d1;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	border-radius: 100px;
+	padding-left: 38px;
+	
+}
+
+.btn-form {
+	border: 0;
+	cursor: pointer;
+	display: inline;
+	height: 54px;
+	margin-left: 11px;
+}
+
+/*FOOTER==========================================*/
+
+.footer {
+	padding: 30px 0;
+	background-color: #201b2d;
+}
+
+.credits {
+	font-size: 13px;
+	color: #fff;
+	margin: 0;
+}
+
+/*Responsive==========================================*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 860px;
+	}
+	.verybig {
+		visibility: hidden;
+	}
+	.big {
+		visibility: visible;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	header {
+		text-align: center;
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: 100%;
+	}
+	.btn1 {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.foto {
+		display: block;
+		width: 547px;
+		margin: 70px auto 0;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	form {
+		width: 100%;
+	}
+	.input {
+		width: 40%;
+	}
+	.btn-form {
+		width: 40%;
+	}
+	.big {
+		visibility: hidden;
+	}
+	.normal {
+		visibility: visible;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px; 
+	}
+	.foto {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn-form {
+		margin-top: 30px;
+		margin-left: 0;
+		display: block;
+		width: 100%;
+	}
+	.normal {
+		visibility: hidden;
+	}
+	.little {
+		visibility: visible;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.little {
+		visibility: hidden;
+	}
+	.verylittle {
+		visibility: visible;
+	}
+}
+
+
+
+
+
+
+
