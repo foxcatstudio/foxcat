@@ -1,0 +1,229 @@
+
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+	line-height: 22px;
+}
+
+div, p, input, button, form, textarea {
+	box-sizing: border-box;
+}
+
+h1, h2, h3 {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+}
+
+.container {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+/*header==============*/
+
+#header {
+	background: #22a2ec;
+	color: #fff;
+	padding-top: 34px;
+	padding-bottom: 31px;
+}
+
+.logo {
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	margin-right: 127px;
+}
+
+.main-menu {
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-item {
+	float: left;
+	margin-right: 27px;
+	display: block;
+}
+
+.menu-item a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.phone {
+	font-weight: bold;
+	font-size: 18px;
+	float: right;
+}
+
+.main-title {
+	padding-top: 51px;
+	padding-bottom: 34px;
+}
+
+/*first===============*/
+
+
+.wrapper {
+	height: 245px;
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper h2 {
+	padding-top: 26px;
+}
+.card {
+	width: 355px;
+	border: 1px solid #d6d6d6;
+	padding: 23px;
+}
+
+.card:nth-child(2) {
+	border: 5px solid #d6d6d6;
+}
+.card:last-child {
+	box-shadow: 0 0 20px #d6d6d6;
+	border: none;
+	border-radius: 3px;
+}
+
+.card a {
+	color: #4fafee;
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/*description=============*/
+
+.description_content {
+	height: 305px;
+}
+
+.description_title {
+	padding-top: 50px;
+	padding-bottom: 33px;
+}
+
+.content_form, .content_map {
+	display: block;
+}
+.content_form {
+	float: left;
+}
+
+.content_map {
+	float: right;
+	background: #184c6b;
+	border-radius: 10px;
+	color: #c0ddee;
+	width: 770px;
+	height: 305px;
+	padding: 34px 40px 20px 40px;
+}
+
+input {
+	width: 240px;
+	margin-bottom: 12px;
+}
+textarea {
+	width: 360px;
+	height: 120px;
+}
+
+input, textarea {
+	display: block;
+	padding: 14px 0;
+	padding-left: 21px;
+	font-size: 15px;
+	color: #a2a3a4;
+	outline: none;   /* убираем браузерообводки форм*/
+}
+
+.map_text {
+	float: left;
+	width: 325px;
+}
+.map_map {
+	float: right;
+}
+.map_map img {
+	margin-top: 20px;
+}
+
+.btn {
+	display: block;
+	margin: 34px 0;
+	text-decoration: none;
+	background: #ebce0d;
+	padding: 14px 0;
+	width: 166px;
+	color: #000;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+}
+
+.little {
+	font-size: 13px;
+	color: #84898d;
+	margin-bottom: 37px;
+}
+
+/*footer=============*/
+
+footer {
+	background: #22a2ec;
+	color: #fff;
+	padding: 30px 0;
+	font-size: 13px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+.btn1 {
+	width: 144px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn2 {border-radius: 50px;}
+
+
+.copyr, .btn1, .whitetext {
+	display: block;
+	float: left;
+	margin-right: 50px;
+	padding: 11px 0;
+}
+
+.whitetext {
+	background: #fff;
+	color: #22a2ec;
+	border-radius: 5px;
+	padding-left: 23px;
+	padding-right: 23px; 
+}
+
+.yra {
+	float: right;
+	padding: 11px 0;
+}
